@@ -115,32 +115,6 @@ TO-DO_BLISS/
 
 ---
 
-# 📸 Screenshots
-
-## 🏠 Home
-
-> *(Add your Home page screenshot here)*
-
----
-
-## 📅 Calendar
-
-> *(Add your Calendar screenshot here)*
-
----
-
-## 📊 Dashboard
-
-> *(Add Dashboard screenshot here)*
-
----
-
-## 🌙 Dark Mode
-
-> *(Add Dark Mode screenshot here)*
-
----
-
 # 🚀 Getting Started
 
 ### Clone the Repository
