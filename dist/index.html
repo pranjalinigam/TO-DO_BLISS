@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Bliss</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Pacifico&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-BAUjsN9H.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-tWVWYbqT.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand"><span class="brand-heart">♡</span><span>Todo-Bliss</span></div>
+        <p class="tagline">Make today amazing <b>✦</b></p>
+        <nav class="nav" id="nav"></nav>
+        <div class="side-decoration"><span>🌷</span><span>☕</span></div>
+        <div class="profile"><div class="avatar">👩🏻</div><div><b>Pranjali</b><small>Stay positive, stay productive 🌸</small></div><button aria-label="Profile menu">⌄</button></div>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+          <div><h1 id="pageTitle">Good morning, Pranjali! <span>🌷</span></h1><p id="pageSubtitle">“Small steps every day lead to big changes.”</p></div>
+          <div class="header-actions"><button class="date-chip">▣ <span><b>11 July, 2025</b><small>Friday</small></span></button><button class="circle-btn">☼</button><button class="circle-btn">♧</button></div>
+        </header>
+        <section id="content"></section>
+      </main>
+    </div>
+    <div class="modal-backdrop" id="modalBackdrop" hidden>
+      <form class="task-modal" id="taskForm">
+        <button type="button" class="close" id="closeModal">×</button>
+        <h2>Add a new task</h2>
+        <p>Make a little promise to your future self.</p>
+        <label>Task name<input id="taskName" required placeholder="e.g. Read 10 pages" /></label>
+        <div class="form-row"><label>Category<select id="taskCategory"><option>Work</option><option>Study</option><option>Health</option><option>Personal</option><option>Home</option></select></label><label>Time<input id="taskTime" type="time" value="09:00" /></label></div>
+        <button class="primary" type="submit">Add task ✦</button>
+      </form>
+    </div>
+  </body>
+</html>
